@@ -39,7 +39,7 @@ platform :ios do
     crashlytics(api_token: '24faf2a83c3fd824044bfbcc2b7b4be24b8b28a1',
              build_secret: 'c33a12b8c295fb1886720465e29ecebd81ee14abcd7c7e2f37553d09a685b735',
                    emails: ["srujank@boston-technology.com","tushark@boston-technology.com","surenders@boston-technology.com"],
-                   groups: groups,
+                   #groups: groups,
                     notes: 'Distributed with fastlane', # Check out the changelog_from_git_commits action
             notifications: true) # Should this distribution notify your testers via email?
 
